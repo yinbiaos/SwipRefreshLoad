@@ -6,7 +6,7 @@ ext {
 
     publishedGroupId = 'com.yinbiao'
     libraryName = 'SwipeRefreshLoad'
-    artifact = 'swiperefreshload'
+    artifact = 'SwipeRefreshLoad'
 
     libraryDescription = 'SwipeRefreshLoad'
 
