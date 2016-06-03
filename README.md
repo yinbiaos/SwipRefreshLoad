@@ -4,7 +4,7 @@ SwipeRefreshLoad
 
 添加依赖：
 
-compile 'com.yinbiao:SwipeRefreshLoad:1.0.1'
+compile 'com.yinbiao:swiperefreshload:1.0.1'
 
 布局：
 
