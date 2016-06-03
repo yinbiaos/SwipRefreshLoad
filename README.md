@@ -6,6 +6,7 @@ SwipeRefreshLoad
 compile 'com.yinbiao:SwipeRefreshLoad:1.0.1'
 
 布局：
+
     <com.swiprefreshload.SwipeRefreshLoadLayout
         android:id="@+id/swipe"
         android:layout_width="match_parent"
@@ -20,6 +21,9 @@ compile 'com.yinbiao:SwipeRefreshLoad:1.0.1'
     
 代码：
         mSwipeRefreshLayout = (SwipeRefreshLoadLayout) findViewById(R.id.swipe);
+        
         mSwipeRefreshLayout.setDirection(SwipeDirection.BOTH);
+        
         mSwipeRefreshLayout.setOnRefreshListener(this);
+        
         mSwipeRefreshLayout.setOnLoadMoreListener(this);
